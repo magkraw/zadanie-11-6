@@ -1,5 +1,36 @@
-body{
-	background: lightblue;
+body {
+	background: #1565C0;
   text-align: center;
-  color: darkblue;
+  color: #f7f7f7;
+}
+
+.column {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
+  color: #333;
+  min-width: 200px;
+  padding: 15px;
+}
+
+.column:not(:last-child) {
+  margin-right: 30px;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.column-card-list {
+  min-height: 100px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
